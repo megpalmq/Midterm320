@@ -118,8 +118,8 @@ h1, h2, h3, h4, h5, h6, p {
   }
   #products .scl{
     background-image: url(../images/prod1.jpg);
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: 300px;
     flex-direction: column;
 background-position: center;
 background-repeat: no-repeat;
@@ -130,8 +130,8 @@ padding-top: 20px;
   #products .mcl{
     background-image: url(../images/prod2.jpg
     );
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: 300px;
     flex-direction: column;
     background-position: center;
     background-repeat: no-repeat;
@@ -142,8 +142,8 @@ padding-top: 20px;
   #products .lcl{
     background-image: url(../images/prod3.jpg
     );
-    height: 300px;
-    width: 400px;
+    height: 200px;
+    width: 300px;
     flex-direction: column;
     background-position: center;
     background-repeat: no-repeat;
