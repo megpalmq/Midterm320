@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <title>Shop</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <nav class="navbar">
+        <div class="nav-links">
+          <a href="/">Home</a>
+          <a href="shop.html">Shop</a>
+          <a href="404.html">About</a>
+        </div>
+      </nav>
+      <div id="products">
+        <h3>Products</h3>
+        <ul>
+          <li>
+            <h3>PC PINK- $1500</h3>
+            <div class="scl"></div>
+            <button class="add-to-cart" data-name="PC_PINK" data-price="1500">
+              Add to Cart🛒
+            </button>
+          </li>
+          <li>
+            <h3>Pink Keyboard - $60</h3>
+            <div class="mcl"></div>
+            <button
+              class="add-to-cart"
+              data-name="Pink Keyboard"
+              data-price="60"
+            >
+              Add to Cart🛒
+            </button>
+          </li>
+          <li>
+            <h3>Slay the day Headphones - $80</h3>
+            <div class="lcl"></div>
+            <button
+              class="add-to-cart"
+              data-name="Slay Headphones"
+              data-price="80"
+            >
+              Add to Cart 🛒
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div id="cart">
+        <h2>Your Cart</h2>
+        <table id="cart-items" class="cart-items">
+          <tr>
+            <th>Product Name</th>
+            <th>Price</th>
+            <th>Quantity</th>
+            <th>Line Total</th>
+          </tr>
+        </table>
+        <div class="cust">
+          <h2>Please enter your info below 😄</h2>
+          <input type="text" id="name" placeholder="Whats your name?" />
+          <input type="email" id="email" placeholder="Whats your email?" />
+          <section></section>
+        </div>
+        <button id="view-invoice" class="btn">View Invoice</button>
+        <button id="download-invoice" class="btn">Download Invoice</button>
+      </div>
+
+      <iframe id="pdf-preview" src="" frameborder="0"></iframe>
+    </div>
+    <script type="module" src="js/shop.js"></script>
+    <script type="module" src="/invoiceMaker.js"></script>
+  </body>
+</html>
