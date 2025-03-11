@@ -2,4 +2,4 @@
 
 ### Live Link
 
-[Home Page](https://{megpalmq}.github.io/{reponame}/Midterm320)
+[Home Page](https://{megpalmq}.github.io/Midterm320)
